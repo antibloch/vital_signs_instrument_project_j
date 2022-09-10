@@ -1,20 +1,3 @@
- 
-# JCS 06/07/14
-# Adapted for Python3 by Michael duPont 2015-04-05
-
-#DEBUG = False
-# BLE scanner based on https://github.com/adamf/BLE/blob/master/ble-scanner.py
-# BLE scanner, based on https://code.google.com/p/pybluez/source/browse/trunk/examples/advanced/inquiry-with-rssi.py
-
-# https://github.com/pauloborges/bluez/blob/master/tools/hcitool.c for lescan
-# https://kernel.googlesource.com/pub/scm/bluetooth/bluez/+/5.6/lib/hci.h for opcodes
-# https://github.com/pauloborges/bluez/blob/master/lib/hci.c#L2782 for functions used by lescan
-
-# performs a simple device inquiry, and returns a list of ble advertizements 
-# discovered device
-
-# NOTE: Python's struct.pack() will add padding bytes unless you make the endianness explicit. Little endian
-# should be used for BLE. Always start a struct.pack() format string with "<"
 
 import os
 import sys
