@@ -1,10 +1,10 @@
 # vital_signs_instrument_project
 
-sennse2gol_code is intended to program the XMC4700 MCU on DEMO Sense2Gol Pulse board to get I/Q signals from radar transmission and reception signals.
+-"sennse2gol_code" is intended to program the XMC4700 MCU on DEMO Sense2Gol Pulse board to get I/Q signals from radar transmission and reception signals.
 
-raspberryPi_code is intended to perform advanced signal processing (mainly using VMD) to estimate heart and breathing rate from I/Q signals from the Pulse board.
+-"raspberryPi_code" is intended to perform advanced signal processing (mainly using VMD) to estimate heart and breathing rate from I/Q signals from the Pulse board.
 
-Smartphone_code is intended to create a flutter application over Android/iOS OS, to get the heart and breathing rate from raspbery pi. The communication used is in the form of beacons using BLE.
+-"smartphone_code" is intended to create a flutter application over Android/iOS OS, to get the heart and breathing rate from raspbery pi. The communication used is in the form of beacons using BLE.
 
 The overall logical flow of the project is as follows:
 
