@@ -15,7 +15,7 @@ from scipy.signal import savgol_filter
 from vmdpy import VMD
 from scipy.signal import find_peaks
 from scipy import signal
-from numpy import array,zeros
+from numpy import array, sign, zeros
 from scipy.interpolate import interp1d
 
 LE_META_EVENT = 0x3e
