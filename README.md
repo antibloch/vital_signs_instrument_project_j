@@ -1,5 +1,7 @@
 # vital_signs_instrument_project
 [White paper](Manual.pdf)
+
+## Repository Context
 -"sennse2gol_code" is intended to program the XMC4700 MCU on DEMO Sense2Gol Pulse board to get I/Q signals from radar transmission and reception signals.
 
 -"raspberryPi_code" is intended to perform advanced signal processing (mainly using VMD) to estimate heart and breathing rate from I/Q signals from the Pulse board.
